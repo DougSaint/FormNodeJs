@@ -1,0 +1,12 @@
+body{
+	background-color: rgb(217, 238, 238);
+}
+form *{
+	margin: .5em;
+}
+#formulario{
+	margin-top: 5vh;
+}
+.btn{
+	margin-top: .5em;
+}
