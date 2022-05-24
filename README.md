@@ -3,3 +3,6 @@ Utilizando tecnologias como o NodeJs, ExpressJs, EJS, e para tratar assuntos de 
 
 
 Este projeto foi feito utilizando variaveis em português para facilitar a compreensão e facilitar o uso das frameworks, pois é o primeiro projeto do curso. Porém os proximos serão todos feitos utilizando variaveis em inglês como é a convenção.
+
+
+Para testar a aplicação basta utilizar o comando -> npm install
