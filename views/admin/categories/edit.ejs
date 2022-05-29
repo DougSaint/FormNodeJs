@@ -1,0 +1,22 @@
+<%- include('../../partials/header.ejs') %>
+<body>
+	<%- include('../../partials/navbar.ejs') %>
+	<div class="container">
+		<div class="card" style="margin-top: 2em;">
+			<div class="card-header">
+				<h2>Cadastro de categoria</h2>
+			</div>
+			<div class="card-body">
+				<form method="POST" action="/admin/categories/update">
+					<input class ="form-control" type="text" name="title" value ="<%= category.title %>" style="margin-bottom:1em;">
+					<input type="hidden" name="id" value ="<%= category.id %>">
+					<span style ="display:flex;justify-content: space-between;">
+					<button class ="btn btn-success">Atualizar</button>
+					<a class ="btn btn-danger" href="/admin/categories">Cancelar</a>
+					</span>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<%- include('../../partials/footer.ejs') %>
