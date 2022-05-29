@@ -14,4 +14,5 @@ Utilílitarios:{ Sequelizer:,
 
 Para rodar essa aplicação basta rodar os seguintes comandos:
 
-• npm install • sudo install mysql-server
+• npm install
+• sudo install mysql-server
